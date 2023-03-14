@@ -1,0 +1,111 @@
+/* Media-queries */
+
+/* tablets */
+@media (min-width: 768px) {
+  .container {
+    .contacto {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 65px;
+      .horarios,
+      .redes {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 40px;
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+    header {
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+      padding: 25px;
+      font-weight: bold;
+      nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 1%;
+      }
+    }
+    .main_info {
+      padding: 3%;
+      .main_text {
+        width: 80%;
+      }
+      #sobre_nosotros {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 55px;
+      }
+      #nosotros_side {
+        align-items: center;
+        padding: 15px;
+      }
+    }
+    .productos {
+      gap: 15px;
+    }
+    .index {
+      display: flex;
+      align-items: center;
+      #main_image {
+        height: 500px;
+        width: 800px;
+      }
+    }
+    .productos {
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .producto_card {
+        width: 48%;
+        height: 150px;
+        #producto_img {
+          width: 150px;
+        }
+        .buy_but:hover {
+          background-color: white;
+          color: black;
+          border: 3px solid black;
+          cursor: pointer;
+          transition: 0.2s;
+        }
+      }
+    }
+    .producto_card:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    li {
+      a:hover {
+        color: blue;
+      }
+    }
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

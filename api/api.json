@@ -1,0 +1,46 @@
+{
+  "sponsors": [
+    {
+      "src": "../sponsors/amd.jpg"
+    },
+    {
+      "src": "../sponsors/intel.jpg"
+    },
+    {
+      "src": "../sponsors/rog.jpg"
+    },
+    {
+      "src": "../sponsors/bequiet.jpg"
+    },
+    {
+      "src": "../sponsors/deepcool.jpg"
+    },
+    {
+      "src": "../sponsors/geil.jpg"
+    },
+    {
+      "src": "../sponsors/lianli.jpg"
+    },
+    {
+      "src": "../sponsors/tforce.jpg"
+    },
+    {
+      "src": "../sponsors/wd.jpg"
+    },
+    {
+      "src": "../sponsors/kolin.jpg"
+    },
+    {
+      "src": "../sponsors/asrock.jpg"
+    },
+    {
+      "src": "../sponsors/adata.jpg"
+    },
+    {
+      "src": "../sponsors/zotac.jpg"
+    },
+    {
+      "src": "../sponsors/vs.jpg"
+    }
+  ]
+}
